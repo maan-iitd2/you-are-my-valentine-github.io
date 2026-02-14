@@ -35,7 +35,7 @@ function App() {
   };
 
   return (
-    <div className="w-full h-full min-h-screen bg-background-light dark:bg-background-dark text-gray-900 dark:text-white font-display overflow-hidden relative selection:bg-primary selection:text-white">
+    <div className="w-full h-full min-h-screen bg-background-light dark:bg-background-dark text-gray-900 dark:text-white font-display overflow-x-hidden relative selection:bg-primary selection:text-white">
       {renderScreen()}
     </div>
   );
