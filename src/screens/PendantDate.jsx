@@ -7,8 +7,8 @@ export default function PendantDate({ onNext }) {
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  // Correct date: 14/02/2023
-  const correctDates = ["14/02/2023", "14-02-2023", "14.02.2023", "2023-02-14"];
+  // Correct date: 26/01/2021
+  const correctDates = ["26/01/2021", "26-01-2021", "26.01.2021", "2021-01-26"];
 
   const handleInputChange = (e) => {
     let val = e.target.value.replace(/\D/g, ''); // Remove non-digits

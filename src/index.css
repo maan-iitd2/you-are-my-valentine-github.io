@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply min-h-[max(884px,100dvh)] font-display antialiased;
+    @apply min-h-[100dvh] font-display antialiased;
   }
 }
